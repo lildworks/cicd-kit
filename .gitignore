@@ -1,0 +1,53 @@
+# See https://git-scm.com/docs/gitignore for more about ignoring files.
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.m2/
+bin/
+target/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### Sublime ###
+*.launch
+*.sublime-workspace
+.c9/
+/connect.lock
+/coverage
+/libpeerconnection.log
+/typings
+.DS_Store
+testem.log
+Thumbs.db
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### dotenv ###
+**/.env
+.env
+
+### LDT ###
+**/.ldt/
+.ldt/
